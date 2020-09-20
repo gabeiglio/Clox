@@ -47,6 +47,7 @@
 		0018B389250DA7AC000229C4 /* compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compiler.c; sourceTree = "<group>"; };
 		0018B38B250DA81A000229C4 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
 		0018B38C250DA81A000229C4 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		00930CEB2516FFCA00D2B05B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		0018B35C250D3DD8000229C4 = {
 			isa = PBXGroup;
 			children = (
+				00930CEB2516FFCA00D2B05B /* README.md */,
 				0018B367250D3DD8000229C4 /* Clox */,
 				0018B366250D3DD8000229C4 /* Products */,
 			);
