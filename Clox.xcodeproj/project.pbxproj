@@ -16,6 +16,7 @@
 		0018B38A250DA7AC000229C4 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 0018B389250DA7AC000229C4 /* compiler.c */; };
 		0018B38D250DA81A000229C4 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 0018B38C250DA81A000229C4 /* scanner.c */; };
 		007A469B2518FD7600753C1E /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 007A469A2518FCC800753C1E /* object.c */; };
+		0086DBFC2521804500D7D663 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 0086DBFB2521804500D7D663 /* table.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		0018B38C250DA81A000229C4 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		007A46992518F34F00753C1E /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
 		007A469A2518FCC800753C1E /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		0086DBFA2521804500D7D663 /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		0086DBFB2521804500D7D663 /* table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = table.c; sourceTree = "<group>"; };
 		00930CEB2516FFCA00D2B05B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +100,8 @@
 				0018B386250D745B000229C4 /* vm.c */,
 				0018B388250DA7AC000229C4 /* compiler.h */,
 				0018B389250DA7AC000229C4 /* compiler.c */,
+				0086DBFA2521804500D7D663 /* table.h */,
+				0086DBFB2521804500D7D663 /* table.c */,
 				0018B38B250DA81A000229C4 /* scanner.h */,
 				0018B38C250DA81A000229C4 /* scanner.c */,
 				0018B370250D3E03000229C4 /* common.h */,
@@ -162,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0086DBFC2521804500D7D663 /* table.c in Sources */,
 				0018B381250D4A4E000229C4 /* value.c in Sources */,
 				0018B376250D3E03000229C4 /* memory.c in Sources */,
 				0018B375250D3E03000229C4 /* chunk.c in Sources */,
